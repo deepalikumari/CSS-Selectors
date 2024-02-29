@@ -1,0 +1,53 @@
+/* Type selector for body */
+body {
+    text-align: left;
+    word-wrap: break-word;
+  }
+  /* ID selector for the heading */
+  #heading {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(8, 114, 61);
+    text-shadow: 2px 2px 5px rgb(218, 131, 131);
+    font-weight: bold;
+    border: goldenrod;
+  }
+  /* Class selector for the hobby list */
+  .hobby-list li {
+    font-size: 20px;
+    color: rgb(21, 128, 163);
+  }
+  /* Class selector for the hobby description */
+  .hobby-description {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(3, 3, 109);
+    text-decoration: underline;
+  }
+  /* Class selector for the hobby text */
+  .hobby-text {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: #213242;
+    padding: 2mm;
+  }
+  /* HTML pseudo-element */
+  html {
+    background-color: lightpink;
+    backdrop-filter: blur(2px);
+  }
+  /* Pseudo-class for list items */
+  .hobby-list li:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  /* Pseudo-element for the first letter of the hobby description */
+  .hobby-description::first-letter {
+    font-size: 150%; /* Increase font size of the first letter */
+    color: crimson; /* Change color of the first letter */
+  }
+  
